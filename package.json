@@ -1,0 +1,36 @@
+{
+  "name": "react-native-riskified-beacon",
+  "version": "1.0.0",
+  "description": "Riskified Beacon Mobile SDK for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "riskified",
+    "riskified beacon",
+    "riskified beacon mobile",
+    "riskified react-native",
+    "riskified react native",
+    "riskified beacon react-native",
+    "riskified beacon react native"
+  ],
+  "author": "Dave Mascia",
+  "homepage": "https://github.com/dmascia/react-native-riskified-beacon",
+  "bugs": {
+    "url": "https://github.com/dmascia/react-native-riskified-beacon/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmascia/react-native-riskified-beacon.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
