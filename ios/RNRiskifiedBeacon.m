@@ -1,14 +1,15 @@
 
-#import "RNReactNativeRiskifiedBeacon.h"
+#import "RNRiskifiedBeacon.h"
 #import "RiskifiedBeacon.h"
+#import <React/RCTLog.h>
 
-@implementation RNReactNativeRiskifiedBeacon
+@implementation RNRiskifiedBeacon
 
 RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(startBeacon:(NSString *)shopName sessionToken:(NSString *)token debugInfo:(BOOL)enabled)
 {
-    [RiskifiedBeacon startBeacon:shopName sessionToken:token debugInfo:enabled];
+    [RiskifiedBeacon startBeacon:@"cardcash.com" sessionToken:token debugInfo:enabled];
 }
     
 RCT_EXPORT_METHOD(updateSessionToken:(NSString *)newToken)

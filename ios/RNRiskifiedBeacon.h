@@ -5,6 +5,6 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNReactNativeRiskifiedBeacon : NSObject <RCTBridgeModule>
+@interface RNRiskifiedBeacon : NSObject <RCTBridgeModule>
 
 @end

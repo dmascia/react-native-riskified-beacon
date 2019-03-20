@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeRiskifiedBeacon } = NativeModules;
+const { RNRiskifiedBeacon } = NativeModules;
 
-export default RNReactNativeRiskifiedBeacon;
+export default RNRiskifiedBeacon;
