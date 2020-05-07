@@ -1,5 +1,6 @@
 package com.DM.RNRiskifiedBeacon;
 
+import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -8,12 +9,12 @@ import com.android.riskifiedbeacon.RiskifiedBeaconMainInterface;
 
 public class RNRiskifiedBeaconModule extends ReactContextBaseJavaModule {
 
-  private final ReactApplicationContext reactContext;
+  private static ReactApplicationContext reactContext;
   private RiskifiedBeaconMainInterface RXBeacon;
 
   public RNRiskifiedBeaconModule(ReactApplicationContext reactContext) {
     super(reactContext);
-    this.reactContext = reactContext;
+    reactContext = reactContext;
   }
 
   @Override
